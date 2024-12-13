@@ -35,7 +35,7 @@ def get_cert_public_key_hash(hostname, port=443):
 
 if __name__ == "__main__":
     # Отримання адреси вебсайту від користувача через консоль
-    hostname = input("Введіть адресу вебсайту (наприклад, www.example.com): ")
+    hostname = input("Введіть адресу вебсайту: ")
 
     # Виклик функції для отримання хешу публічного ключа
     pubkey_hash = get_cert_public_key_hash(hostname)
